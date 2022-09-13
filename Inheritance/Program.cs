@@ -12,9 +12,15 @@ namespace Inheritance
             // give this class 4 members that all Animals have in common
 
 
+
+
+
             // Create a class Bird
             // give this class 4 members that are specific to Bird
             // Set this class to inherit from your Animal Class
+
+
+
 
             // Create a class Reptile
             // give this class 4 members that are specific to Reptile
@@ -28,7 +34,8 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
-
+            var Parrot = new Bird { Age=1, Breed="American", Color="Red", HasLeg=true, HasWing=true, IfFly = true, NumberLegs=2, Origin="brazil" };
+            Console.WriteLine(Parrot);
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
              *  
